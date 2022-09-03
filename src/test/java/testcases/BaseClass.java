@@ -63,7 +63,7 @@ public static WebDriver driver;
 		driver = new ChromeDriver();
 		//WebDriver driver = new FirefoxDriver();
 		
-		driver.get("http://localhost:8080/medicare/");
+		driver.get("http://localhost:8585/medicare/");
 		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.MILLISECONDS);
